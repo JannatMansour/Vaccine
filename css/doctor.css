@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px; 
+}
+.Data{
+    width: 800px;
+    background-color: rgb(0,0, 0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    border-radius: 50px 50px 0px 0px;
+   
+
+
+}
+
+.Data .ID{
+    float: left;
+    margin-left: 25px;
+
+margin-top: -20px;
+}
+.Data .Name{
+    float: right;
+    margin-right: 25px;
+
+margin-top: -20px;
+}
+
+
+
+
+.mane{
+    background-color: rgb(0,0, 0,0.5);
+    width: 800px;
+    margin: auto;
+}
+form{
+    padding: 10px;
+}
+#wieght{
+    width: 50%;
+    height: 50px;
+}
+#High{
+    width: 50%;
+    height: 50px;
+}
+#Age{
+    width: 50%;
+    height: 50px;
+}
+.number{
+    margin-left: 25px;
+    margin-top: 30px;
+     width: 15%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+.Vaccination{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 15%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+.Type-Vaccination{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+     width: 15%;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+.Numberlabel-Vaccination{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    right: -50px; 
+    bottom: 2px;  
+    font-weight: 700;
+    color: #000;
+   
+    
+}
+.Typelabel-Vaccination{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+   right: -55px; 
+    bottom: 2px;  
+    font-weight: 700;
+    color: #000;
+ 
+}
+
+.Wieght{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 118px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.Age{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 118px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+.High{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 118px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#Gender{
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+button{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px ;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+button:hover{
+    background-color: #5390F5;
+}
